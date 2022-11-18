@@ -59,7 +59,7 @@ body {
 .udaje {
     text-align: right;
     position: relative;
-    top: 230px;
+    top: 240px;
     right: 0;
 }
 
@@ -77,10 +77,24 @@ body {
     padding: 30px;
 }
 
+.popis-bota {
+    margin-bottom: 30px;
+}
+
 .popis-bota h1 {
     font-weight: 500;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.kategorie-bota {
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.velikost {
+    padding-top: 30px;
+    border: 10px, solid, #06d7c1;
 }
 
 .velikost h2 {
@@ -88,3 +102,22 @@ body {
     font-size: 16px;
     text-transform: uppercase;
 }
+
+.velikost ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 60px;
+    display: flex;
+    flex-grow: 6;
+}
+
+a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15f42;
+    color: white;
+    border-radius: 5px;
+}
+
