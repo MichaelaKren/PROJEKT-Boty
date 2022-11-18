@@ -4,6 +4,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    margin: 0;
 }
 
 /*
@@ -34,7 +35,7 @@ body {
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     margin-top: 120px;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
 }
 
 .leva-polovina {
@@ -79,6 +80,7 @@ body {
 
 .popis-bota {
     margin-bottom: 30px;
+    border: 10px, solid, #06d7c1
 }
 
 .popis-bota h1 {
@@ -94,13 +96,14 @@ body {
 
 .velikost {
     padding-top: 30px;
-    border: 10px, solid, #06d7c1;
+
 }
 
 .velikost h2 {
     font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
+    
 }
 
 .velikost ul {
@@ -108,7 +111,16 @@ body {
     padding: 0;
     margin-bottom: 60px;
     display: flex;
+}
+
+.velikost li {
     flex-grow: 6;
+}
+
+.vybrana-velikost {
+    color: #f15f42;
+    border: 1px, solid, #f15f42;
+    border-radius: 50%;
 }
 
 a{
@@ -119,5 +131,6 @@ a{
     background-color: #f15f42;
     color: white;
     border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
